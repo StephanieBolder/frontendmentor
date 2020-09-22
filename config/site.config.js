@@ -9,10 +9,10 @@ if (!ROOT) {
 
 const config = {
   // Your website's name, used for favicon meta tags
-  site_name: 'stephanie-portfolio',
+  site_name: 'Frontend Mentor',
 
   // Your website's description, used for favicon meta tags
-  site_description: 'Een portfolio voor development',
+  site_description: 'Projects made with the challenges from Frontend Mentor',
 
   // Your website's URL, used for sitemap
   site_url: '',
