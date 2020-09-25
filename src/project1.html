@@ -4,110 +4,123 @@
     <meta charset="utf-8" />
     <title>Static Site Boilerplate</title>
     <meta name="description" content="" />
-    <link href='https://fonts.google.com/specimen/Spartan' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/tds4tgw.css">
     <style>
-        #menu-toggle:checked + #menu {
-        display: block;
+      .py-15 {
+        padding-top: 3.1rem;
+        padding-bottom: 3.1rem;
       }
 
-      .w-72 {
-        width: 24rem;
+      .py-72 {
+        padding-top: 18.05rem;
+        padding-bottom: 18.05rem;
       }
+
+      .text-3-5 {
+        font-size: 2rem;
+      }
+
+      .font-test {
+        font-family: learning-curve, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      .underline-red {
+      text-decoration: underline;
+      text-decoration-color: red;
+}
+
+      .text-xxs {
+        font-size: 0.50rem;
+      }
+
       </style>
 </head>
   <body>
 
-    <div class="pt-32 pl-32  flex justify-between w-5/12">
-    <div class="">
-        <div class="leading-none tracking-wide font-bold font-display text-6xl text-verydarkmagenda">
-            10,000+ of our users love our products.
-        </div>
-        <div class="mt-4 font-display text-darkgrayishmagenda">
-            We only provide great products combined with excellent customer service. See what our satisfied customers are saying about our services.
-        </div>
-    </div>
+    <header class="tracking-widest py-8 flex flex-row items-center justify-center bg-white font-display">
+      <a href="" class="text-xs text-donkerzwart mx-4 ">HOME</a>
+      <a href="" class="text-xs text-donkerzwart mx-4 ">ABOUT</a>
+      <a href="" class="text-xs text-donkerzwart mx-4 ">COURSES</a>
+      <a href="" class="mx-4 text-5xl text-pink font-test">Flourish Collective</a>
+      <a href="" class="text-xs text-donkerzwart mx-4 ">BLOG</a>
+      <a href="" class="text-xs text-donkerzwart mx-4 ">SHOP</a>
+      <a href="" class="text-xs text-donkerzwart mx-4 ">CONTACT</a>
+        </header>
+
+      <div
+      class="py-64 justify-center items-center flex bg-cover flex-col"
+      style="background-image: url('/images/workingonlaptop.jpg');">
+      <div class="text-white text-3-5 font-display text-center w-5/12">Want to turn your passion project into a profitable, creative business?
+      </div>
+      <a href="" class="shadow-lg items-center transition duration-500 ease-in-out bg-buttonbeige hover:opacity-75 text-lichtbeige font-display text-xs tracking-widest py-4 px-10 mt-4">ENROLL IN OUR FREE BETTER BIZ COURSE
+      </a>
 </div>
 
-<div class="flex flex-row justify-between mx-32">
+<div class="flex justify-center ">
+  <div class="pt-24 text-center leading-relaxed w-6/12 text-4xl font-display text-donkergrijs ">We help makers build + launch businesses that they love (and make them money too!)</div>
+</div>
 
-<div class="w-72 rounded-lg flex flex-col bg-verydarkmagenda my-2 py-6">
-    <div class="flex flex-row">
-        <img class="ml-10 w-12 rounded-full" src="images/image-colton.jpg"/>
-        <div class="ml-12 flex flex-col">
-            <div class="font-bold text-white">Colton Smith</div>
-            <div class="text-softpink">Verified Buyer</div>
-        </div>
-        </div>
-        <div class="font-display mx-10 py-4 text-sm text-white">
-            "We needed the same printed design as the one we had ordered a week prior. Not only did they find the original order, but we also received it in time. Excellent!"
-        </div>
+<div class="flex justify-between pt-12 pb-24 px-48">
+  <div class="flex items-center flex-col w-3/12 ">
+    <img class="w-32 h-32" src="images/lightbulb.png">
+    <div class="font-test text-5xl">Build</div>
+    <div class="text-center font-light leading-relaxed text-lg font-display">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum eu orci vitae sapien. Phasellus tempus dictum libero, quis molestie nisi lobortis elit nunc vel.</div>
+    <a href="" class=" items-center transition duration-500 ease-in-out bg-lichtgrijs hover:opacity-75 text-lichtbeige font-display text-xs tracking-widest py-4 px-10 mt-4">JOIN THE FREE COURSE</a>
+  </div>
+
+  <div class="flex items-center flex-col w-3/12 ">
+    <img class="w-32 h-32" src="images/planner.png">
+    <div class="font-test text-5xl">Launch</div>
+    <div class="text-center font-light leading-relaxed text-lg font-display">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum eu orci vitae sapien. Phasellus tempus dictum libero, quis molestie nisi lobortis elit nunc vel.</div>
+    <a href="" class=" items-center transition duration-500 ease-in-out bg-lichtgrijs hover:opacity-75 text-lichtbeige font-display text-xs tracking-widest py-4 px-10 mt-4">JOIN THE FREE COURSE</a>
+  </div>
+
+  <div class="flex items-center flex-col w-3/12 ">
+    <img class="w-32 h-32" src="images/plant.png">
+    <div class="font-test text-5xl">Grow</div>
+    <div class="text-center font-light leading-relaxed text-lg font-display">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum eu orci vitae sapien. Phasellus tempus dictum libero, quis molestie nisi lobortis elit nunc vel.</div>
+    <a href="" class=" items-center transition duration-500 ease-in-out bg-lichtgrijs hover:opacity-75 text-lichtbeige font-display text-xs tracking-widest py-4 px-10 mt-4">JOIN THE FREE COURSE</a>
+  </div>
+  </div>
+
+<div class="flex flex-row bg-achtergrondbeige">
+  <img class="w-1/2" src="images/blondewomanworking.jpg"/>
+  <div class="w-1/2 flex flex-col justify-center pl-24 ">
+    <div class="mt-32  font-test text-5xl">The Creator</div>
+    <div class="font-display text-3xl ">Hey there, I'm Hannah</div>
+    <div class="font-display font-thin w-9/12 text-xl">
+    <p class="mb-4 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt id dolor sit amet maximus. Proin lacus purus rutrum.</p>
+    <p class="mb-4 ">Fusce hendrerit massa at mauris dictum, ut posuere dui feugiat. Aenean nec ultricies purus nullam sapien dui blandit. Lorem ipsum dolor sit amet.</p>
+    <p>Maecenas vel magna nulla. Aliquam consectetur suscipit molestie. Duis et purus id urna auctor finibus.</p>
     </div>
+    <a href="" class="mb-32 text-center w-5/12 shadow-lg items-center transition duration-500 ease-in-out bg-buttonbeige hover:opacity-75 text-lichtbeige font-display text-xs tracking-widest py-4 px-10 mt-4">READ THE WHOLE STORE
+    </a>
+  </div>
+  </div>
 
-    <div class="w-72 rounded-lg flex flex-col bg-verydarkmagenda my-2 py-6">
-        <div class="flex flex-row">
-            <img class="ml-10 w-12 rounded-full" src="images/image-colton.jpg"/>
-            <div class="ml-12 flex flex-col">
-                <div class="font-bold text-white">Colton Smith</div>
-                <div class="text-softpink">Verified Buyer</div>
-            </div>
-            </div>
-            <div class="font-display mx-10 py-4 text-sm text-white">
-                "We needed the same printed design as the one we had ordered a week prior. Not only did they find the original order, but we also received it in time. Excellent!"
-            </div>
-        </div>
+  <div class="flex justify-center">
+    <div class="pt-24 font-test text-5xl ">
+      Popular Posts
+    </div>
+  </div>
 
-        <div class="w-72 rounded-lg flex flex-col bg-verydarkmagenda my-2 py-6">
-            <div class="flex flex-row">
-                <img class="ml-10 w-12 rounded-full" src="images/image-colton.jpg"/>
-                <div class="ml-12 flex flex-col">
-                    <div class=" text-white">Colton Smith</div>
-                    <div class="text-softpink">Verified Buyer</div>
-                </div>
-                </div>
-                <div class="font-display mx-10 py-4 text-sm text-white">
-                    "We needed the same printed design as the one we had ordered a week prior. Not only did they find the original order, but we also received it in time. Excellent!"
-                </div>
-            </div>
-
-
+<div class="w-2/12 flex ">
+  <div class="pt-8 bg-achtergrondbeige text-center">
+    <div class="px-12 font-semibold py-4 text-xs font-display">BUSINESS</div>
+    <div class="px-12 text-md leading-relaxed font-semibold font-display">HOW TO BE PRODUCTIVE WHEN YOU'RE FEELING UNMOTIVATED</div>
+    <img class="pt-4" src="images/office1.jpg">
+    <div class="py-2 text-xs font-display text-achtergrondbeige bg-achtergrondgrijs">www.yoursiteurl.com</div>
+  </div>
 </div>
 
 
-<div class="flex flex-row justify-between mx-2 ">
-    <div class="py-2 mt-4 bg-white rounded-lg shadow-lg w-28 flex flex-col items-center">
-      <img class="w-12" src="images/gift.png">
-      <div class="mt-1 text-sm">Mystery gift</div>
-      <div class="flex flex-row items-center justify-center ">
-        <img class="h-6 w-6" src="images/Coin.png"/>
-        <div class="font-bold text-2xl">4</div>
-      </div>
-      <div class="bg-roze rounded-lg shadow-lg px-2 py-1  ">
-        <div class="text-white text-xs">Open gift!</div>
-      </div>
-    </div>
-    <div class="py-2 mt-4 bg-white rounded-lg shadow-lg w-28 flex flex-col items-center">
-      <img class="w-12" src="images/gift.png">
-      <div class="mt-1 text-sm">Mystery gift</div>
-      <div class="flex flex-row items-center justify-center ">
-        <img class="h-6 w-6" src="images/Coin.png"/>
-        <div class="font-bold text-2xl">20</div>
-      </div>
-      <div class="bg-roze rounded-lg shadow-lg px-2 py-1  ">
-        <div class="text-white text-xs">Open gift!</div>
-      </div>
-    </div>
-    <div class="py-2 mt-4 bg-white rounded-lg shadow-lg w-28 flex flex-col items-center">
-      <img class="w-12" src="images/gift.png">
-      <div class="mt-1 text-sm">Mystery gift</div>
-      <div class="flex flex-row items-center justify-center ">
-        <img class="h-6 w-6" src="images/Coin.png"/>
-        <div class="font-bold text-2xl">35</div>
-      </div>
-      <div class="bg-donkergrijs rounded-lg shadow-lg px-2 py-1  ">
-        <div class="text-white text-xs">Open gift!</div>
-      </div>
-    </div>
-    </div>
+
+
+
+
 
   </body>
 </html>
