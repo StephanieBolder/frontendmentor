@@ -19,6 +19,7 @@ module.exports = {
         lichtgrijs: '#9AA5A7' ,
         achtergrondbeige: '#F6F5F1' ,
         achtergrondgrijs: '#9AA5AB' ,
+        footergrijs: '#9AA5A7' ,
       }
     },
   },
